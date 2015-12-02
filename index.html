@@ -17,14 +17,12 @@
     <script type="application/javascript" src="vendor/keymaster.js"></script>
 
     <script type="application/javascript">
-      debugger
       var gameCanvas = document.getElementsByTagName("canvas")[0];
       gameCanvas.width = Asteroids.Game.DIM_X;
       gameCanvas.height = Asteroids.Game.DIM_Y;
       var ctx = gameCanvas.getContext("2d");
 
       var game = new Asteroids.Game();
-      debugger
       new Asteroids.GameView(ctx, game).start();
     </script>
 
