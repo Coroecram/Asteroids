@@ -12,7 +12,7 @@
     this.bullets = [];
     this.positions = [];
 
-    this.addAsteroids();
+    // this.addAsteroids();
     this.addWoolongs();
   };
 
