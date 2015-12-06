@@ -5,16 +5,29 @@ body {
   padding: 0;
   border: 0;
   overflow: hidden;
-  background: url(../assets/img/swordfish.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
   background-color: black;
 }
 
+.game-container {
+  display: block;
+  position: relative;
+  height: inherit;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: url(../assets/img/swordfish.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.game-info {
+  height: 150px;
+}
 
 canvas {
   display: block;
-  margin: 100px 0 100px 100px;
+  margin-right: 100px;
   border: 1px solid black;
   background: url(../assets/img/edward-earth.jpg);
 }
