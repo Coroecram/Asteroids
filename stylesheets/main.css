@@ -1,7 +1,39 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font: inherit;
+ color: inherit;
+ font-family: sans-serif;
+ text-align: inherit;
+ text-decoration: inherit;
+ vertical-align: inherit;
+ background: transparent;
+}
+
+html {
+  height: 100%;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
 html,
 body {
-  height: 2000px;
-  width: 3000px;
+  height: 100%;
+  width: 2000px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -12,7 +44,7 @@ body {
 .game-container {
   display: block;
   position: relative;
-  height: inherit;
+  height: 1;
   width: 80%;
   margin: 0 auto;
   padding: 0;
