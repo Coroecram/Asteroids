@@ -18,7 +18,6 @@ body {
   border: 0;
   background: url(../assets/img/swordfish.jpg);
   background-repeat: no-repeat;
-  background-position: 0 100px;
 }
 
 .game-info {
@@ -30,4 +29,6 @@ canvas {
   margin-right: 100px;
   border: 1px solid black;
   background: url(../assets/img/edward-earth.jpg);
+  background-position: 0 100px;
+  background-repeat: no-repeat;
 }
