@@ -20,8 +20,22 @@ body {
   background-repeat: no-repeat;
 }
 
-.game-info {
-  height: 150px;
+@font-face {
+  font-family: Orbitron;
+  font-weight: 300;
+  src: url("../assets/fonts/orbitron-light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Orbitron;
+  font-weight: 500;
+  src: url("../assets/fonts/orbitron-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Orbitron;
+  font-weight: bold;
+  src: url("../assets/fonts/orbitron-black.otf") format("opentype");
 }
 
 canvas {
