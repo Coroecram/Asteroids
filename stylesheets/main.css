@@ -21,21 +21,19 @@ body {
 }
 
 @font-face {
-  font-family: Orbitron;
-  font-weight: 300;
-  src: url("../assets/fonts/orbitron-light.otf") format("opentype");
+  font-family: OrbitronLight;
+  src: url("../assets/fonts/Orbitron/orbitron-light.otf") format("opentype");
 }
 
 @font-face {
   font-family: Orbitron;
-  font-weight: 500;
-  src: url("../assets/fonts/orbitron-medium.otf") format("opentype");
+  src: url("../assets/fonts/Orbitron/orbitron-medium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Orbitron;
-  font-weight: bold;
-  src: url("../assets/fonts/orbitron-black.otf") format("opentype");
+  font-family: OrbitronBold;
+  src: url("../assets/fonts/Orbitron/orbitron-black.otf") format("opentype");
+  color: white;
 }
 
 canvas {
