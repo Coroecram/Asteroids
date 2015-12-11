@@ -18,7 +18,7 @@ body {
   border: 0;
   background: url(../assets/img/swordfish.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 0 100px;
 }
 
 .game-info {
