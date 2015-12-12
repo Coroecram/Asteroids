@@ -54,10 +54,6 @@ body {
   background-position: top;
 }
 
-.game-info {
-  height: 150px;
-}
-
 canvas {
   display: block;
   margin-right: 100px;
