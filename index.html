@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Space Cowboy</title>
+    <div style="font-family: OrbitronLight;">.</div>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/main.css" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -18,7 +19,6 @@
     <script type="application/javascript" src="vendor/keymaster.js"></script>
   </head>
   <body>
-    <div style="font-family: OrbitronLight;">.</div>
     <div class="game-container">
       <canvas></canvas>
     </div>
@@ -26,7 +26,6 @@
 
 
     <script type="application/javascript">
-    $( document ).ready(function() {
       var gameCanvas = document.getElementsByTagName("canvas")[0];
       gameCanvas.width = Asteroids.Game.DIM_X;
       gameCanvas.height = Asteroids.Game.CANVAS_Y;
@@ -34,7 +33,6 @@
 
       var game = new Asteroids.Game();
       new Asteroids.GameView(ctx, game).start();
-    });
     </script>
   </body>
 </html>
