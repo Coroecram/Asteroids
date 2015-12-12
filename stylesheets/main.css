@@ -44,7 +44,7 @@ body {
 .game-container {
   display: block;
   position: relative;
-  height: 100%;
+  height: inherit;
   width: 80%;
   margin: 0 auto;
   padding: 0;
