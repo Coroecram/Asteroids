@@ -44,14 +44,29 @@ body {
 .game-container {
   display: block;
   position: relative;
-  height: 100%;
+  height: inherit;
   width: 80%;
   margin: 0 auto;
   padding: 0;
   border: 0;
-  background: url(../assets/img/swordfish.jpg);
+  background: url(../assets/img/logo.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+}
+
+@font-face {
+  font-family: OrbitronLight;
+  src: url("../assets/fonts/Orbitron/orbitron-light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("../assets/fonts/Orbitron/orbitron-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: OrbitronBold;
+  src: url("../assets/fonts/Orbitron/orbitron-black.otf") format("opentype");
+  color: white;
 }
 
 canvas {
@@ -59,4 +74,6 @@ canvas {
   margin-right: 100px;
   border: 1px solid black;
   background: url(../assets/img/edward-earth.jpg);
+  background-position: 0 100px;
+  background-repeat: no-repeat;
 }
