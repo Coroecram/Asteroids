@@ -32,8 +32,7 @@
       var ctx = gameCanvas.getContext("2d");
 
       var game = new Asteroids.Game();
-      var gameView = new Asteroids.GameView(ctx, game);
-      game.addView(gameView);
+      new Asteroids.GameView(ctx, game).start();
     </script>
   </body>
 </html>
