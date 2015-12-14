@@ -66,6 +66,11 @@ body {
 @font-face {
   font-family: OrbitronBold;
   src: url("../assets/fonts/Orbitron/orbitron-black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Roundup;
+  src: url("../assets/fonts/DSRoundup/DSRoundup.ttf") format("truetype");
   color: white;
 }
 
