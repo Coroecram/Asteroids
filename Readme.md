@@ -29,3 +29,9 @@ Bounty Hunter has:
 - [x] Pause and Game Over screens
 - [x] Display of game stats on the Game Over screen
 - [x] Ability to restart on Game Over
+
+### Bonus Features
+- [ ] CSV-Mediated High-Scores with initials input on qualifying Game Over
+- [ ] Soundtrack and Sound effects
+- [ ] Object-triggered sound effects
+- [ ] Retro-Arcade landing page with demo on timeout
