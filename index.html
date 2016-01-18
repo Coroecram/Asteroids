@@ -26,17 +26,12 @@
       <canvas></canvas>
     </div>
 
-
-
     <script type="application/javascript">
       var gameCanvas = document.getElementsByTagName("canvas")[0];
       gameCanvas.width = Asteroids.Game.DIM_X;
       gameCanvas.height = Asteroids.Game.CANVAS_Y;
       var ctx = gameCanvas.getContext("2d");
-
-      var game = new Asteroids.Game();
-      var gameView = new Asteroids.GameView(ctx, game);
-      game.add(gameView);
+      var game = new Asteroids.Game(ctx);
     </script>
   </body>
 </html>
