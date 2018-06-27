@@ -21,6 +21,9 @@
       gameCanvas.height = Asteroids.Game.CANVAS_Y;
       var ctx = gameCanvas.getContext("2d");
       var game = new Asteroids.Game(ctx);
+
+      game.start();
+      game.gameView.start();
     </script>
 
   </body>
