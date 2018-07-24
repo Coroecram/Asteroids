@@ -53,6 +53,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.created-by {
+  color: white;
+  float: right;
+  margin-right: 15%;
+}
+
+.created-by a {
+  color: blue;
+}
+
 @font-face {
   font-family: OrbitronLight;
   src: url("../assets/fonts/Orbitron/orbitron-light.otf") format("opentype");
